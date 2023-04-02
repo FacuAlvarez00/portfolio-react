@@ -1,0 +1,26 @@
+.about{
+    
+    background-color: #778DA9;
+    height: 80vh;
+    .about__header{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2rem;
+        .about__logo{
+            width: 45px;
+            height: 45px;
+        }
+        div{
+            p{
+                font-size: 39px;
+                padding-top: 14px;
+                font-weight: 500;
+               
+            }
+        }
+    }
+
+}
