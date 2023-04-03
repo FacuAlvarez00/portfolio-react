@@ -34,8 +34,10 @@ const About = () => {
                     <div>
                         <p>About me</p>
                         <div></div>
+                        
                     </div>
                 </div>
+                <span className='about__anotation'>A quick introduction</span>
 
                 <p className='about__text'>I am a Systems Engineering student and Front End developer, passionate about web development. I acquired most of my knowledge through self-learning. My passion lies in creating attractive and intuitive user interfaces that make users feel at home. I am always learning about new technologies that allow me to push my creations to the maximum.
                     I love working on personal projects and experimenting with different designs and functionalities to continue improving my skills. I enjoy challenging myself and I am constantly seeking ways to exceed my limits.</p>
@@ -44,10 +46,11 @@ const About = () => {
                     <BsTools className='about__logo' />
                     <div>
                         <p>Skills</p>
-
+                        
                         <div></div>
                     </div>
                 </div>
+                <span className='about__anotation'>Most used technologies</span>
 
                 <div className='about__skills'>
                     {technologies.map((tech: any, index: any) => {
