@@ -3,7 +3,7 @@ import "./hero.scss"
 
 const Hero = () => {
   return (
-    <>
+    
         <section className='hero'>
        
             <div className='hero__textbox'>
@@ -17,9 +17,11 @@ const Hero = () => {
                 <button className='hero__button'>CONTACT</button>
             </div>
 
+
+
       
         </section>
-    </>
+    
     
   )
 }

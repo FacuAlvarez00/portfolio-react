@@ -1,0 +1,27 @@
+.contact{
+    background-color: #FAFAFA;
+    padding: 2.5rem;
+    div{
+        .contact__form{
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            
+
+        }
+    }
+    .contact__info{
+        ul{
+            list-style: none;
+            li{
+                display: flex;
+                gap: 0.5rem;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
