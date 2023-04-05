@@ -9,13 +9,13 @@ function App() {
 
 
   return (
-    <>
+    <main>
     <Hero/>
     <About/>
     <Projects/>
     <Contact/>
     
-    </>
+    </main>
    
   )
 }

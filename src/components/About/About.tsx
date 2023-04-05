@@ -13,16 +13,24 @@ import firebase from "../../assets/skills/icons8-firebase.svg"
 import git from "../../assets/skills/icons8-git.svg"
 
 const technologies: any = [
-    html,
-    css,
-    react,
-    typescript,
-
-    bootstrap,
-    tailwind,
-    sass,
-    firebase,
-    git 
+    {"img": html,
+    "name": "HTML"},
+    {"img": css,
+    "name": "CSS"},
+    {"img": react,
+    "name": "React"},
+    {"img": typescript,
+    "name": "Typescript"},
+    {"img": bootstrap,
+    "name": "Bootstrap"},
+    {"img": tailwind,
+    "name": "Tailwind"},
+    {"img": sass,
+    "name": "Sass"},
+    {"img": firebase,
+    "name": "Firebase"},
+    {"img": git,
+    "name": "Git"}
 ];
 
 const About = () => {
@@ -39,10 +47,10 @@ const About = () => {
                 </div>
                 <span className='about__anotation'>A quick introduction</span>
 
-                <p className='about__text'>I am a Systems Engineering student and Front End developer, passionate about web development. I acquired most of my knowledge through self-learning. My passion lies in creating attractive and intuitive user interfaces that make users feel at home. I am always learning about new technologies that allow me to push my creations to the maximum.
+                <p className='about__text'>I am a university student and Front End developer, passionate about web development. I acquired most of my knowledge through self-learning. My passion lies in creating attractive and intuitive user interfaces that make users feel at home. I am always learning about new technologies that allow me to push my creations to the maximum.
                     I love working on personal projects and experimenting with different designs and functionalities to continue improving my skills. I enjoy challenging myself and I am constantly seeking ways to exceed my limits.</p>
 
-                <div className='about__header'>
+                <div className='about__header2'>
                     <BsTools className='about__logo' />
                     <div>
                         <p>Skills</p>
@@ -56,7 +64,8 @@ const About = () => {
                     {technologies.map((tech: any, index: any) => {
                         return (
                             <div className='about__skill' key={index}>
-                                <img src={tech} alt="" />
+                                <img src={tech.img} alt="" />
+                                <span className='skills_name'>{tech.name}</span>
                             </div>
                         )
                     })

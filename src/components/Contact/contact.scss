@@ -1,23 +1,94 @@
-.contact{
+.contact {
     background-color: #FAFAFA;
     padding: 2.5rem;
-    div{
-        .contact__form{
-            form{
+
+    div {
+        .contact__form {
+            h1 {
+                margin-bottom: 1rem;
+                font-size: 39px;
+            }
+
+            form {
                 display: flex;
                 flex-direction: column;
+
+                input {
+                    padding: 0.9rem;
+                    border: none;
+                    background-color: #FAFAFA;
+                    border-bottom: 2px solid #1f1f1f;
+
+                    margin-bottom: 1rem;
+                }
+
+                textarea {
+                    padding: 0.9rem;
+                    border: none;
+                    background-color: #FAFAFA;
+                    border-bottom: 2px solid #1f1f1f;
+
+                    margin-bottom: 1rem;
+                    height: 80px;
+                }
+
+                input, textarea:focus,
+                #alphatxt:focus {
+                    outline: 0;
+                }
+
+                button {
+                    padding: 0.75rem;
+                    border: 1px solid #1f1f1f;
+                    border-radius: 6px;
+                    background-color: #1f1f1f;
+                    color: #FAFAFA;
+                    font-weight: 600;
+                    margin: 1rem 0;
+                    width: 40%;
+                    font-size: 17px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #FAFAFA;
+                        color: #1f1f1f;
+                        
+                    }
+
+                }
             }
-            
+
 
         }
     }
-    .contact__info{
-        ul{
+
+    .contact__info {
+        h2 {
+            font-size: 28px;
+            margin-top: 1rem;
+        }
+
+        p {
+            font-size: 15px;
+            color: #5f5f5f;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 1rem;
+
+
+
+        }
+
+        ul {
             list-style: none;
-            li{
+
+            li {
                 display: flex;
                 gap: 0.5rem;
-                img{
+                margin: 15px 0;
+
+                img {
                     width: 20px;
                     height: 20px;
                 }
