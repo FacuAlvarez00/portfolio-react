@@ -9,6 +9,7 @@ const Contact = () => {
   return (
     <section className='contact'>
         <div>
+
             <div className='contact__form'>
                 <h1>Wanna talk?</h1>
                 <form>
@@ -17,25 +18,19 @@ const Contact = () => {
                     <textarea placeholder='Message'></textarea>
                     <button>Send</button>
                 </form>
-
-
-
             </div>
 
             <div className='contact__info'>
                 <h2>Other ways</h2>
                 <p>Do not hesitate in contacting me by any means!</p>
-
                 <ul>
-                    <li><img src={whatsapp}/>+54 11 55617969</li>
+                    <li><img src={whatsapp}/>+54 1155617969</li>
                     <li><img src={linkedin}/>facundoalvarezzz</li>
                     <li><img src={github}/>FacuAlvarez00</li>
                     <li><img src={message}/>facundoalvarezzh@gmail.com</li>
                 </ul>
-
-
-
             </div>
+
         </div>
       
     </section>

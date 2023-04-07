@@ -25,10 +25,15 @@ const Project: React.FC<props> = ({name, img, desc, techIcon1, techIcon2, techIc
                 <img src={img}/>
             </div>
             
-            <span className='project__title'>{name}</span>
-            <div>
-            <p className='project__desc'>{desc}</p>
-            </div>
+            <div className='project__info'>
+
+           
+                <span className='project__title'>{name}</span>
+                <div>
+                <p className='project__desc'>{desc}</p>
+                </div>
+            
+           
            
 
             <div className='project__icons'>
@@ -71,6 +76,7 @@ const Project: React.FC<props> = ({name, img, desc, techIcon1, techIcon2, techIc
                
                 
             </div>
+             </div>
             
         </div>
     </article>

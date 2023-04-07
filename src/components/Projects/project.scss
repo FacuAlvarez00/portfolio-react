@@ -1,6 +1,8 @@
 .project{
     margin-top: 2.5rem;
     div{
+        
+     
         .project__title{
             display: flex;
             justify-content: flex-start;
@@ -83,4 +85,108 @@
       
     }
     
+}
+
+@media only screen and (min-width: 1000px) {
+    .project{
+    margin: 4.5rem 0rem;
+    div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        .project__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 50%;
+        }
+        .project__title{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 27px;
+            font-weight: 500;
+            margin: 0 0 0.6rem 0;
+        }
+        .project__desc{
+        text-align: start;
+        overflow-wrap: break-word;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 18px;
+        }
+        .project__img__container{
+            display: flex;
+            justify-content: center;
+            img{
+                border-radius: 10px;
+                width: 500px;
+                height: 340px;
+                object-fit:cover;
+                object-position:50% 50%;
+    
+            }
+        }
+    }
+    .project__icons{
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        
+        div{
+            background-color: rgba(220, 220, 220, 0.6392156863);
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.323);
+            border-radius: 50%;
+            img{
+                scale: 80%;
+            }
+        }
+    }
+    .project__buttons{
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-top: 1rem;
+        
+        
+        div{
+            display: flex;
+        
+            a{
+                text-decoration: none;
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    width: 140px;
+                    height: 42px;
+                    font-weight: 400;
+                    font-size: 19px;
+                    border-radius: 6px;
+                    background-color: white;
+                    border: none;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                    text-align: center;
+                    cursor: pointer;
+                    span{
+             
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+
+            }
+           
+
+        }
+      
+    }
+    
+}
+
+
+
 }
