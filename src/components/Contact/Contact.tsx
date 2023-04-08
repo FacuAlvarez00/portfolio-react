@@ -7,7 +7,7 @@ import message from "../../assets/contact/envelope-solid.svg"
 
 const Contact = () => {
   return (
-    <section className='contact'>
+    <section className='contact' id='contact'>
         <div>
 
             <div className='contact__form'>

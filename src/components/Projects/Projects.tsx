@@ -16,7 +16,7 @@ import git from "../../assets/skills/icons8-git.svg"
 
 const Projects = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <div>
         <h1>My projects</h1>
         <p>Recent ones</p>

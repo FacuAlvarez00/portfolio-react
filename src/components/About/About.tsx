@@ -35,7 +35,7 @@ const technologies: any = [
 
 const About = () => {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <div className='about__textbox'>
                 <div className='about__header'>
                     <FaUserAlt className='about__logo' />
