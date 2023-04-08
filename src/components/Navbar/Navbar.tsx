@@ -4,14 +4,22 @@ import ukflag from '../../assets/nav/Flag_of_the_United_Kingdom.svg'
 import spainflag from '../../assets/nav/Flag_of_Spain.svg'
 import {CiDark} from "react-icons/ci"
 import {MdDarkMode} from "react-icons/md"
-import {Link} from "react-router-dom"
+import { UserAuth } from '../../context/AppContext'
+
 
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
 
+  const {spanish, setSpanish} = UserAuth()
+
+
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
+  }
+
+  const handleSpanish = () => {
+    setSpanish(!spanish)
   }
 
   return (
@@ -29,16 +37,16 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <a href='#home'>Home</a>
+              <a href='#home'>{spanish? 'Inicio' : 'Home'}</a>
             </li>
             <li>
-              <a href="#about">About me</a>
+              <a href="#about">{spanish? "Sobre mi" : "About me"}</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects">{spanish? "Proyectos" : "Projects"}</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">{spanish?  "Contacto" : "Contact"}</a>
             </li>
 
             <div className='navbar__language__switch__mobile'>
@@ -55,9 +63,16 @@ const Navbar = () => {
         </div>
 
         <div className='navbar__language__switch'>
-          <span><img src={spainflag}/></span>
-          /
-          <span><img src={ukflag}/></span>
+          {spanish?
+          <span onClick={handleSpanish}><img src={spainflag}/></span>
+          :
+
+          <span onClick={handleSpanish}><img src={ukflag}/></span>
+
+          }
+          
+          
+          
         </div>
 
         <div className='navbar__color__switch'>

@@ -4,6 +4,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import './App.css'
+import { AuthContextProvider } from './context/AppContext'
 
 
 function App() {
@@ -11,11 +12,15 @@ function App() {
 
   return (
     <main>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Projects/>
-    <Contact/>
+    <AuthContextProvider>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Contact/>
+
+    </AuthContextProvider>
+  
     
     </main>
    

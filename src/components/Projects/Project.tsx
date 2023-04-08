@@ -2,6 +2,7 @@ import React from 'react'
 import "./project.scss"
 import github from "../../assets/projects/buttons/github.svg"
 import link from "../../assets/projects/buttons/link-solid.svg"
+import { UserAuth } from '../../context/AppContext'
 
 type props = {
     name: string;
@@ -18,6 +19,9 @@ type props = {
 }
 
 const Project: React.FC<props> = ({name, img, desc, techIcon1, techIcon2, techIcon3, techIcon4, projectLink1, projectLink2  }) => {
+
+
+
   return (
     <article className='project'>
         <div>
