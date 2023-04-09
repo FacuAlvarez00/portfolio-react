@@ -29,10 +29,10 @@ const Contact = () => {
                 <h2>{spanish? "Otros medios" : "Other ways"}</h2>
                 <p>{spanish? "No dudes en ponerte en contacto conmigo de cualquier forma!" : "Do not hesitate in contacting me by any means!"}</p>
                 <ul>
-                    <li><img src={whatsapp}/>+54 1155617969</li>
-                    <li><img src={linkedin}/>facundoalvarezzz</li>
-                    <li><img src={github}/>FacuAlvarez00</li>
-                    <li><img src={message}/>facundoalvarezzh@gmail.com</li>
+                    <a href='https://api.whatsapp.com/send?phone=541155617969' target="_Blank"><li><img src={whatsapp}/>+54 1155617969</li></a>
+                    <a href='https://www.linkedin.com/in/facundoalvarezzz/' target="_Blank"><li><img src={linkedin}/>facundoalvarezzz</li></a>
+                    <a href='https://github.com/FacuAlvarez00' target="_Blank"><li><img src={github}/>FacuAlvarez00</li></a>
+                    <a><li><img src={message}/>facundoalvarezzh@gmail.com</li></a>
                 </ul>
             </div>
 

@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import './App.css'
 import { AuthContextProvider } from './context/AppContext'
+import SideInfo from './components/SideInfo/SideInfo'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
+      <SideInfo/>
 
     </AuthContextProvider>
   

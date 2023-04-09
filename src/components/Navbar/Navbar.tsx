@@ -69,9 +69,9 @@ const Navbar = () => {
           }
             </div>
 
-            <div className='navbar__color__switch__mobile'>
+           {/*  <div className='navbar__color__switch__mobile'>
               <MdDarkMode className='switch__icons'/>
-            </div>
+            </div> */}
 
           </ul>
         </div>
@@ -97,10 +97,10 @@ const Navbar = () => {
           
         </div>
 
-        <div className='navbar__color__switch'>
+        {/* <div className='navbar__color__switch'>
           <MdDarkMode className='switch__icons'/>
         </div>
-
+ */}
 
       </div>
     

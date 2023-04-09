@@ -79,7 +79,7 @@
 
   
   .nav-elements ul a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     color: #828282;
     text-decoration: none;
@@ -195,7 +195,9 @@
       height: calc(100vh - 60px);
       transition: all 0.3s ease-in;
       overflow: hidden;
+      
     }
+  
   
     .nav-elements.active {
       width: 270px;
@@ -292,5 +294,6 @@
   
      }
     }
+  
     
   }
