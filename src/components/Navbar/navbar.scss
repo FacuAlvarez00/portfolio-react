@@ -104,14 +104,20 @@
   .navbar__language__switch{
     display: flex;
     color: white;
-    font-size: 30px;
     text-align: center;
+    align-items: center;
+    gap: 2px;
     span{
+      width: 35px;
+      height: 25px;
       cursor: pointer;
       img{
         width: 35px;
         height: 25px;
       }
+    }
+    p{
+      font-size: 25px;
     }
   }
   .navbar__color__switch{
@@ -145,9 +151,12 @@
     text-align: center;
    .switch__icons{
     cursor: pointer;
-
    }
+   p{
+    font-size: 40px;
   }
+  }
+  
   
   
 
@@ -234,7 +243,7 @@
     .navbar__language__switch{
       display: none;
       color: white;
-      font-size: 30px;
+    
       text-align: center;
       span{
         cursor: pointer;

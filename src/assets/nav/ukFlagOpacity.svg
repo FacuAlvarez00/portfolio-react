@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 30" width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <clipPath id="t">
+    <path d="M 25.064 15 L 50.064 15 L 50.064 30 L 25.064 15 Z M 25.064 15 L 25.064 30 L 0.064 30 L 25.064 15 Z M 25.064 15 L 0.064 15 L 0.064 0 L 25.064 15 Z M 25.064 15 L 25.064 0 L 50.064 0 L 25.064 15 Z"/>
+  </clipPath>
+  <path d="M 0.064 0 L 0.064 30 L 50.064 30 L 50.064 0 L 0.064 0 Z" style="fill-rule: evenodd; fill-opacity: 0.55;" fill="#012169"/>
+  <path d="M 0.064 0 L 50.064 30 M 50.064 0 L 0.064 30" stroke="#fff" stroke-width="6" style="fill-rule: evenodd; fill-opacity: 0.55;"/>
+  <path d="M 0.064 0 L 50.064 30 M 50.064 0 L 0.064 30" clip-path="url(#t)" stroke="#C8102E" stroke-width="4" style="fill-rule: evenodd; fill-opacity: 0.55;"/>
+  <path d="M -0.936 11 L 21.064 11 L 21.064 -1 L 29.064 -1 L 29.064 11 L 51.064 11 L 51.064 19 L 29.064 19 L 29.064 31 L 21.064 31 L 21.064 19 L -0.936 19 L -0.936 11 Z" stroke="#FFF" stroke-width="2" style="fill-rule: evenodd; fill-opacity: 0.55;" fill="#C8102E"/>
+</svg>

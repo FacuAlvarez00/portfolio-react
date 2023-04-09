@@ -19,7 +19,7 @@ type props = {
 }
 
 const Project: React.FC<props> = ({name, img, desc, techIcon1, techIcon2, techIcon3, techIcon4, projectLink1, projectLink2  }) => {
-
+    const {spanish} = UserAuth()
 
 
   return (
@@ -66,7 +66,7 @@ const Project: React.FC<props> = ({name, img, desc, techIcon1, techIcon2, techIc
             <div className='project__buttons'>
                 <div>
                     <a target="_Blank" href={projectLink1}>
-                            <button><span><img src={github}/></span>Code</button>
+                            <button><span><img src={github}/></span>{spanish? "Codigo" : "Code"}</button>
                     </a>
                     
                 </div>

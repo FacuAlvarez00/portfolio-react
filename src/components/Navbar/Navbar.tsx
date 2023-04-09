@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './navbar.scss'
 import ukflag from '../../assets/nav/Flag_of_the_United_Kingdom.svg'
+import ukflagopacity from "../../assets/nav/ukFlagOpacity.svg"
 import spainflag from '../../assets/nav/Flag_of_Spain.svg'
+import spainflagopacity from "../../assets/nav/spainFlagOpacity.svg"
 import {CiDark} from "react-icons/ci"
 import {MdDarkMode} from "react-icons/md"
 import { UserAuth } from '../../context/AppContext'
@@ -50,9 +52,21 @@ const Navbar = () => {
             </li>
 
             <div className='navbar__language__switch__mobile'>
-              <span><img src={spainflag}/></span>
-              /
-              <span><img src={ukflag}/></span>
+            {spanish?
+          <>
+            <span><img src={spainflagopacity}/></span>
+            <p>/</p>
+            <span onClick={handleSpanish}><img src={ukflag}/></span>
+          </>
+
+          :
+          <>
+            <span onClick={handleSpanish}><img src={spainflag}/></span>
+            <p>/</p>
+            <span><img src={ukflagopacity}/></span>
+          </>
+
+          }
             </div>
 
             <div className='navbar__color__switch__mobile'>
@@ -64,10 +78,18 @@ const Navbar = () => {
 
         <div className='navbar__language__switch'>
           {spanish?
-          <span onClick={handleSpanish}><img src={spainflag}/></span>
-          :
+          <>
+            <span><img src={spainflagopacity}/></span>
+            <p>/</p>
+            <span onClick={handleSpanish}><img src={ukflag}/></span>
+          </>
 
-          <span onClick={handleSpanish}><img src={ukflag}/></span>
+          :
+          <>
+            <span onClick={handleSpanish}><img src={spainflag}/></span>
+            <p>/</p>
+            <span><img src={ukflagopacity}/></span>
+          </>
 
           }
           
@@ -81,7 +103,9 @@ const Navbar = () => {
 
 
       </div>
+    
     </nav>
+    
   )
 }
 

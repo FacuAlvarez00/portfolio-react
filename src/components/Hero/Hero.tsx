@@ -4,7 +4,7 @@ import "./hero.scss"
 
 
 const Hero = () => {
-const {spanish, setSpanish} = UserAuth()
+const {spanish} = UserAuth()
 
   return (
 
@@ -18,8 +18,12 @@ const {spanish, setSpanish} = UserAuth()
             </div>
             
             <div className='hero__button__container'>
-                <button className='hero__button cv'>DOWNLOAD CV</button>
-                <button className='hero__button'>CONTACT</button>
+                <button className='hero__button cv'>{spanish? "DESCARGAR CV" : "DOWNLOAD CV"}</button>
+                
+                <a href='#contact'>
+                    <button className='hero__button'>{spanish? "CONTACTO" : "CONTACT"}</button>
+                </a>
+                
             </div>
 
 
