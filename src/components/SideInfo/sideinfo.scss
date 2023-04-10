@@ -1,14 +1,26 @@
 .aside__socials {
+
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    top: 50%;
+    top: 80%;
     right: 30px;
+    align-items: center;
    
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+ 
     ul{
+        display: flex;
+        flex-direction: column;
         list-style: none;
+        gap: 1px;
+        height: 100%;
+        
         li{
+            
+            border-radius: 20%;
             a {
                 display: block;
                 text-align: center;
@@ -19,6 +31,12 @@
                 img{
                     width: 30px;
                     height: 30px;
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                }
+                img:hover{
+                    scale: 110%;
+                   
                 }
               }
             
@@ -27,12 +45,21 @@
 
     }
     .aside__line{
-        width: 1px;
-        height: 100%;
-        background-color: red;
+        width: 2px;
+        height: 120px;
+        background-color: #626262;
 
 
     }
     
   }
-  
+  .aside__socials-hide{
+    display: none;
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    .aside__socials{
+        display: none;
+    }
+  }

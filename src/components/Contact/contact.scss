@@ -1,6 +1,7 @@
 .contact {
     background-color: #FAFAFA;
     padding: 2.5rem;
+   
 
     div {
         .contact__form {
@@ -106,6 +107,10 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  /*   .igIcon{
+        width: 40px !important;
+        height: 40px !important;
+    } */
     .contact {
         background-color: #FAFAFA;
         padding: 5rem 20rem;
