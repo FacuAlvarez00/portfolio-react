@@ -36,7 +36,7 @@ const technologies: any = [
 ];
 
 const About = () => {
-    const {spanish, setSpanish} = UserAuth()
+    const {spanish} = UserAuth()
     return (
         <section className='about' id='about'>
             <div className='about__textbox'>
@@ -48,7 +48,7 @@ const About = () => {
                         
                     </div>
                 </div>
-                <span className='about__anotation'>{spanish? "Una breve introduccion" : "A quick introduction"}</span>
+                <span className='about__anotation'>{spanish? "Una breve introducción" : "A quick introduction"}</span>
 
                 <p className='about__text'>{spanish? "Soy un estudiante universitario y desarollador Front End, apasionado por el mundo IT, adquiri la mayoria de mis conocimientos como autodidacta. Mi pasion esta en crear interfaces atractivas e intuitivas para que los usuarios se sientan como en casa. Estoy siempre aprendiendo sobre nuevas tecnologias que me permitan llevar mis proyectos a otro nivel. Me encanta trabajar en proyectos personales y experimentar con distintos diseños y funcionalidades para asi mejorar mis habilidades. Desafiarme a mi mismo es mi objetivo para exceder mis limites y mejorar. " : "I am a university student and Front End developer, passionate about the IT world. I acquired most of my knowledge through self-learning. My passion lies in creating attractive and intuitive user interfaces that make users feel at home. I am always learning about new technologies that allow me to push my creations to the maximum. I love working on personal projects and experimenting with different designs and functionalities to continue improving my skills. I enjoy challenging myself and I am constantly seeking ways to exceed my limits."}</p>
 

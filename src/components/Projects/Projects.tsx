@@ -30,8 +30,8 @@ const Projects = () => {
 
        <Project name={"Random People"} projectLink1={"https://github.com/FacuAlvarez00/RandomUser-REACT"} projectLink2={"https://random-user-react-mu.vercel.app/"} img={project2} desc={spanish? "Aplicación web que consume una API que genera personas con datos al azar. Cuenta con filtros para separar por nombre y género, y un buscador por nombre." : "This app consumes an API which generates random people, with filters to separate them by gender and name."} techIcon1={react} techIcon2={typescript} techIcon3={css} techIcon4={tailwind}/> 
 
-{/*       <Project name={"ROCK, PAPER AND SCISSORS"} img={project1} desc={"dasdasadsadsadasdsadasdasdsaasddsadadasdsadsadasdasdasdadasdsadas"} techIcon1={react} techIcon2={typescript} techIcon3={css} techIcon4={firebase}/>
-      */}
+   {/*    <Project name={"Levisoft"} projectLink1={"https://github.com/matiasillaness/proyecto-lv"} projectLink2={"https://matiasillaness.github.io/proyecto-lv/"} img={project1} desc={spanish? "Pagina estatica para publicitar un servicio freelance de armado de sitios web, hecho junto a otros 2 desarrolladores." : ""} techIcon1={html} techIcon2={css} techIcon3={typescript} techIcon4={firebase}/> */}
+      
       
     </section>
   )
