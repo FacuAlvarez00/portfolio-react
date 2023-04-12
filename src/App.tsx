@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import './App.css'
 import { AuthContextProvider } from './context/AppContext'
 import SideInfo from './components/SideInfo/SideInfo'
+import ArrowBack from './components/ArrowBack/ArrowBack'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Projects/>
       <Contact/>
       <SideInfo/>
+      <ArrowBack/>
 
     </AuthContextProvider>
   

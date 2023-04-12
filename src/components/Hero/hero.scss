@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: #F2F2F2;
     color: #fff;
-    height: 85vh;
+    height: 100vh;
     padding: 2.5rem;
     .hero__textbox{
         text-align: center;
@@ -66,16 +66,18 @@
     justify-content: center;
     background-color: #F2F2F2;
     color: #fff;
-    height: 85vh;
+    height: 100vh;
+   
     padding: 20rem;
     .hero__textbox{
         text-align: start;
         
         h1{
-            font-size: 70px;
+            font-size: 75px;
             font-weight: 800;
             margin-bottom: 0.8rem;
             color: #252323;
+            letter-spacing: 2px;
             
         }
         p{

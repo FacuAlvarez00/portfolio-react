@@ -1,6 +1,7 @@
 import React from 'react'
 import { UserAuth } from '../../context/AppContext'
 import "./hero.scss"
+import CV from "../../assets/CV.pdf"
 
 
 const Hero = () => {
@@ -18,7 +19,9 @@ const {spanish} = UserAuth()
             </div>
             
             <div className='hero__button__container'>
+                <a href={CV} download="CV - Facundo Alvarez">
                 <button className='hero__button cv'>{spanish? "DESCARGAR CV" : "DOWNLOAD CV"}</button>
+                </a>
                 
                 <a href='#contact'>
                     <button className='hero__button'>{spanish? "CONTACTO" : "CONTACT"}</button>
@@ -27,8 +30,6 @@ const {spanish} = UserAuth()
             </div>
 
 
-
-      
         </section>
     
     

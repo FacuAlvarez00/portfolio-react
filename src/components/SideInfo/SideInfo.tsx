@@ -12,7 +12,7 @@ const SideInfo = () => {
   const [asideBar, setasidebar] = useState<boolean>(true)
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 2000) {
+    if (window.scrollY > 2400) {
       setasidebar(false)
       console.log("false")
     }
