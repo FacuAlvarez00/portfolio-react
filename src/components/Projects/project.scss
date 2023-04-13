@@ -104,6 +104,7 @@
         .project__title{
             display: flex;
             justify-content: flex-start;
+            text-align: start;
             font-size: 27px;
             font-weight: 500;
             margin: 0 0 1.2rem 0;
@@ -119,9 +120,8 @@
             display: flex;
             justify-content: center;
             img{
-               /*  border-radius: 10px; */
-                width: 657px;
-                height: 400px;
+                width: 80%;
+                height: 400px; 
                 object-fit:cover;
                 object-position:50% 50%;
                 transition: ease-in-out 0.3s;
@@ -192,7 +192,4 @@
     }
     
 }
-
-
-
 }

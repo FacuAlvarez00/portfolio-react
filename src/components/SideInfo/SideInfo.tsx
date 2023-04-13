@@ -27,10 +27,10 @@ const SideInfo = () => {
     
     <div className={asideBar? 'aside__socials' : "aside__socials-hide"}>
         <ul>
-            <li><a><img src={linkedin}/></a></li>
-            <li><a><img src={github}/></a></li>
-            <li><a><img src={whatsapp}/></a></li>
-            <li><a><img src={instagram}/></a></li>
+            <li><a href='https://www.linkedin.com/in/facundoalvarezzz/' target="_Blank"><img src={linkedin}/></a></li>
+            <li><a href='https://github.com/FacuAlvarez00' target="_Blank"><img src={github}/></a></li>
+            <li><a href='https://api.whatsapp.com/send?phone=541155617969' target="_Blank"><img src={whatsapp}/></a></li>
+            <li><a href="https://www.instagram.com/facualvarezzz/" target="_Blank"><img src={instagram}/></a></li>
 
             
             

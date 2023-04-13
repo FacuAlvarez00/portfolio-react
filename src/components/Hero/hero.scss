@@ -67,8 +67,7 @@
     background-color: #F2F2F2;
     color: #fff;
     height: 100vh;
-   
-    padding: 20rem;
+    padding: 15rem 15rem;
     .hero__textbox{
         text-align: start;
         
@@ -123,6 +122,11 @@
         }
     }
 }
+}   
 
+@media only screen and (min-width: 1400px) {
+    .hero{
+        padding: 15rem 22rem;
+    }
 
 }
