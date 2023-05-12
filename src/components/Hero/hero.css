@@ -1,0 +1,120 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F2F2F2;
+  color: #fff;
+  height: 100vh;
+  padding: 2.5rem;
+}
+.hero .hero__textbox {
+  text-align: center;
+}
+.hero .hero__textbox h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+  color: #252323;
+}
+.hero .hero__textbox p {
+  margin-top: 1.75rem;
+  font-size: 18px;
+  font-weight: 400;
+  color: #252323;
+  margin-bottom: 1rem;
+}
+.hero .hero__button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1.25rem;
+}
+.hero .hero__button__container .hero__button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 225px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /*   &:hover{
+        background-color: #E0E1DD;
+        color: #fff;
+    } */
+}
+.hero .hero__button__container .cv {
+  background-color: #252323;
+  color: white;
+  border: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2F2F2;
+    color: #fff;
+    height: 100vh;
+    padding: 15rem 15rem;
+  }
+  .hero .hero__textbox {
+    text-align: start;
+  }
+  .hero .hero__textbox h1 {
+    font-size: 75px;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+    color: #252323;
+    letter-spacing: 2px;
+  }
+  .hero .hero__textbox p {
+    margin-top: 1.75rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: #252323;
+    margin-bottom: 1rem;
+    width: 40rem;
+  }
+  .hero .hero__button__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 1.25rem;
+  }
+  .hero .hero__button__container .hero__button {
+    background-color: white;
+    color: black;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /*   &:hover{
+          background-color: #E0E1DD;
+          color: #fff;
+      } */
+  }
+  .hero .hero__button__container .cv {
+    background-color: #252323;
+    color: white;
+    border: none;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .hero {
+    padding: 15rem 22rem;
+  }
+}/*# sourceMappingURL=hero.css.map */

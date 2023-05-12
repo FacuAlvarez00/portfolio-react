@@ -1,0 +1,193 @@
+.contact {
+  background-color: #FAFAFA;
+  padding: 2.5rem;
+}
+.contact div .contact__form h1 {
+  margin-bottom: 1rem;
+  font-size: 39px;
+  color: #252323;
+  text-align: center;
+}
+.contact div .contact__form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact div .contact__form form input {
+  padding: 0.9rem;
+  border: none;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid #1f1f1f;
+  margin-bottom: 1rem;
+}
+.contact div .contact__form form textarea {
+  padding: 0.9rem;
+  border: none;
+  background-color: #FAFAFA;
+  border-bottom: 2px solid #1f1f1f;
+  margin-bottom: 1rem;
+  height: 80px;
+}
+.contact div .contact__form form input, .contact div .contact__form form textarea:focus,
+.contact div .contact__form form #alphatxt:focus {
+  outline: 0;
+}
+.contact div .contact__form form button {
+  padding: 0.75rem;
+  border: 1px solid #1f1f1f;
+  border-radius: 6px;
+  background-color: #1f1f1f;
+  color: #FAFAFA;
+  font-weight: 600;
+  margin: 1rem 0;
+  width: 40%;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.contact div .contact__form form button:hover {
+  background-color: #FAFAFA;
+  color: #1f1f1f;
+}
+.contact .contact__info h2 {
+  font-size: 28px;
+  margin-top: 1rem;
+  color: #252323;
+  text-align: center;
+}
+.contact .contact__info p {
+  font-size: 15px;
+  color: #5f5f5f;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact .contact__info ul {
+  list-style: none;
+}
+.contact .contact__info ul a {
+  text-decoration: none;
+  color: black;
+}
+.contact .contact__info ul li {
+  display: flex;
+  gap: 0.5rem;
+  margin: 15px 0;
+  align-items: center;
+}
+.contact .contact__info ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (min-width: 1000px) {
+  /*   .igIcon{
+        width: 40px !important;
+        height: 40px !important;
+    } */
+  .contact {
+    background-color: #FAFAFA;
+    padding: 5rem 20rem;
+  }
+  .contact div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact div .contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .contact div .contact__form h1 {
+    margin-bottom: 1rem;
+    font-size: 44px;
+    text-align: start;
+  }
+  .contact div .contact__form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact div .contact__form form input {
+    padding: 0.9rem;
+    border: none;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #1f1f1f;
+    margin-bottom: 2rem;
+    font-size: 20px;
+  }
+  .contact div .contact__form form ::-moz-placeholder {
+    font-size: 17px;
+  }
+  .contact div .contact__form form :-ms-input-placeholder {
+    font-size: 17px;
+  }
+  .contact div .contact__form form ::placeholder {
+    font-size: 17px;
+  }
+  .contact div .contact__form form textarea {
+    padding: 0.9rem;
+    border: none;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #1f1f1f;
+    margin-bottom: 2rem;
+    height: 80px;
+  }
+  .contact div .contact__form form input, .contact div .contact__form form textarea:focus,
+.contact div .contact__form form #alphatxt:focus {
+    outline: 0;
+  }
+  .contact div .contact__form form button {
+    padding: 0.75rem;
+    border: 1px solid #1f1f1f;
+    border-radius: 6px;
+    background-color: #1f1f1f;
+    color: #FAFAFA;
+    font-weight: 600;
+    margin: 1rem 0;
+    width: 40%;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact div .contact__form form button:hover {
+    background-color: #FAFAFA;
+    color: #1f1f1f;
+  }
+  .contact .contact__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .contact .contact__info h2 {
+    font-size: 38px;
+    margin: 0;
+    text-align: start;
+  }
+  .contact .contact__info p {
+    font-size: 16px;
+    color: #5f5f5f;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 1rem;
+    text-align: start;
+  }
+  .contact .contact__info ul {
+    list-style: none;
+  }
+  .contact .contact__info ul li {
+    display: flex;
+    gap: 0.8rem;
+    margin: 15px 0;
+    align-items: center;
+  }
+  .contact .contact__info ul li img {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .contact {
+    padding: 5rem 15rem 5rem 22rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

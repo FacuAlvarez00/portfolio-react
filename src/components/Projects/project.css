@@ -1,0 +1,159 @@
+.project {
+  margin-top: 2.5rem;
+}
+.project div .project__title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.project div .project__desc {
+  text-align: start;
+  overflow-wrap: break-word;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.project div .project__img__container {
+  display: flex;
+  justify-content: center;
+}
+.project div .project__img__container img {
+  width: 320px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.project .project__icons {
+  display: flex;
+  gap: 12px;
+}
+.project .project__icons div img {
+  width: 40px;
+  height: 40px;
+}
+.project .project__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.project .project__buttons div {
+  display: flex;
+}
+.project .project__buttons div a {
+  text-decoration: none;
+}
+.project .project__buttons div a button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 140px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 19px;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  text-align: center;
+  cursor: pointer;
+}
+.project .project__buttons div a button span img {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .project {
+    margin: 6rem 0rem;
+  }
+  .project div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .project div .project__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+  }
+  .project div .project__title {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0 0 1.2rem 0;
+  }
+  .project div .project__desc {
+    text-align: start;
+    overflow-wrap: break-word;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .project div .project__img__container {
+    display: flex;
+    justify-content: center;
+  }
+  .project div .project__img__container img {
+    width: 80%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .project div .project__img__container img:hover {
+    scale: 103%;
+  }
+  .project .project__icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .project .project__icons div img {
+    width: 50px;
+    height: 50px;
+  }
+  .project .project__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .project .project__buttons div {
+    display: flex;
+  }
+  .project .project__buttons div a {
+    text-decoration: none;
+  }
+  .project .project__buttons div a button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 140px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .project .project__buttons div a button span img {
+    width: 24px;
+    height: 24px;
+  }
+}/*# sourceMappingURL=project.css.map */

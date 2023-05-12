@@ -1,0 +1,48 @@
+.projects {
+  background-color: #F2F2F2;
+  padding: 2.5rem;
+}
+.projects div {
+  color: #252323;
+  text-align: center;
+}
+.projects div h1 {
+  font-size: 39px;
+  padding-top: 14px;
+  font-weight: 500;
+}
+.projects div p {
+  font-size: 15px;
+  color: #5f5f5f;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .projects {
+    background-color: #F2F2F2;
+    padding: 5rem 15rem;
+  }
+  .projects div {
+    text-align: center;
+  }
+  .projects div h1 {
+    font-size: 50px;
+    padding-top: 14px;
+    font-weight: 500;
+    text-align: start;
+  }
+  .projects div p {
+    font-size: 16px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-top: 0rem;
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .projects {
+    padding: 5rem 15rem 5rem 22rem;
+  }
+}/*# sourceMappingURL=projects.css.map */

@@ -5,12 +5,15 @@ import {BsTools} from "react-icons/bs"
 import css from "../../assets/skills/icons8-css3.svg"
 import html from "../../assets/skills/icons8-html-5.svg"
 import react from "../../assets/skills/icons8-react-native.svg"
+import javascript from "../../assets/skills/icons8-javascript.svg"
 import typescript from "../../assets/skills/icons8-typescript.svg"
 import bootstrap from "../../assets/skills/icons8-bootstrap.svg"
 import tailwind from "../../assets/skills/icons8-tailwindcss.svg"
 import sass from "../../assets/skills/icons8-sass.svg"
 import firebase from "../../assets/skills/icons8-firebase.svg"
 import git from "../../assets/skills/icons8-git.svg"
+import redux from "../../assets/skills/icons8-redux.svg"
+import nextjs from "../../assets/skills/nextjs-icon-svgrepo-com.svg"
 import { UserAuth } from '../../context/AppContext'
 
 
@@ -21,6 +24,12 @@ const technologies: any = [
     "name": "CSS"},
     {"img": react,
     "name": "React"},
+    {"img": nextjs,
+    "name": "Next.js"},
+    {"img": redux,
+    "name": "Redux"},
+    {"img": javascript,
+    "name": "Javascript"},
     {"img": typescript,
     "name": "Typescript"},
     {"img": bootstrap,

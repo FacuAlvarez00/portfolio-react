@@ -1,0 +1,182 @@
+.about .about__textbox {
+  padding: 2.5rem;
+  background-color: #FAFAFA;
+  height: 100%;
+}
+.about .about__textbox .about__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.about .about__textbox .about__header .about__logo {
+  width: 45px;
+  height: 45px;
+  color: #252323;
+}
+.about .about__textbox .about__header div p {
+  font-size: 39px;
+  padding-top: 14px;
+  font-weight: 500;
+  color: #252323;
+}
+.about .about__textbox .about__header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.about .about__textbox .about__header2 .about__logo {
+  width: 45px;
+  height: 45px;
+  color: #252323;
+}
+.about .about__textbox .about__header2 div p {
+  font-size: 39px;
+  padding-top: 14px;
+  font-weight: 500;
+  color: #252323;
+}
+.about .about__textbox .about__text {
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(95, 95, 95);
+  font-size: 18px;
+  font-weight: 400;
+}
+.about .about__skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "a b c" "center center center";
+  gap: 14px;
+  margin-top: 3rem;
+}
+.about .about__skill {
+  grid-area: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  /* background-color: #dcdcdca3;
+  border: 1px solid #dcdcdca3;  */
+  height: 80px;
+}
+.about .about__skill img {
+  width: 70px;
+  height: 70px;
+}
+.about .about__anotation {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #5f5f5f;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.about .skills_name {
+  display: none;
+  font-size: 24px;
+  color: #5f5f5f;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about .about__textbox {
+    padding: 5rem 15rem;
+    background-color: #FAFAFA;
+    height: 100%;
+  }
+  .about .about__textbox .about__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0rem;
+  }
+  .about .about__textbox .about__header .about__logo {
+    width: 50px;
+    height: 50px;
+  }
+  .about .about__textbox .about__header div p {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .about .about__textbox .about__header2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .about .about__textbox .about__header2 .about__logo {
+    width: 50px;
+    height: 50px;
+    color: #252323;
+  }
+  .about .about__textbox .about__header2 div p {
+    font-size: 50px;
+    font-weight: 500;
+    color: #252323;
+  }
+  .about .about__textbox .about__text {
+    margin-top: 2rem;
+    text-align: initial;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .about .about__skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a b c" "center center center";
+    gap: 14px;
+    margin-top: 3rem;
+  }
+  .about .about__skill {
+    grid-area: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    height: 80px;
+    padding: 0px 20px;
+    gap: 0.5rem;
+  }
+  .about .about__skill img {
+    width: 70px;
+    height: 70px;
+  }
+  .about .about__skill .skills_name {
+    display: block;
+    font-size: 24px;
+    color: #5f5f5f;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0.5rem;
+    letter-spacing: 0.5px;
+  }
+  .about .about__anotation {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #5f5f5f;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0rem;
+    letter-spacing: 0.5px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .about .about__textbox {
+    padding: 5rem 15rem 5rem 22rem;
+  }
+}/*# sourceMappingURL=about.css.map */
