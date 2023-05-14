@@ -26,7 +26,8 @@ const Project: React.FC<props> = ({name, img, desc, techIcon1="", techIcon2="", 
 
 
   return (
-    <article className='project'>
+    <article className='project '>
+
         <div>
             <div className='project__img__container'>
                 <a target="_Blank" href={projectLink2}><img src={img}/></a>
