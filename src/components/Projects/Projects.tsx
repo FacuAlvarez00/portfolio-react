@@ -3,7 +3,7 @@ import "./projects.scss"
 import Project from './Project'
 import { BsRocket } from 'react-icons/bs'
 import project1 from "../../assets/projects/RPS/rpss.png"
-import project2 from "../../assets/projects/Random People/Screenshot_3.png"
+import project2 from "../../assets/projects/Random People/Screenshot_2.png"
 import project3 from "../../assets/projects/levisoft/Screenshot_3.png"
 import project4 from "../../assets/projects/todolist/download.png"
 import css from "../../assets/skills/icons8-css3.svg"
