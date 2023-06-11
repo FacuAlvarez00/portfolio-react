@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { UserAuth } from '../../context/AppContext'
 import "./hero.scss"
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/CV - Facundo Alvarez.pdf"
 import 'animate.css';
 
 
